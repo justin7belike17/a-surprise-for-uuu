@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquet of Flowers</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            margin: 0;
+        }
+        .bouquet {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .flower {
+            width: 150px;
+            height: 150px;
+        }
+        .petal {
+            fill: #ff6666;
+            animation: bloom 5s infinite;
+        }
+        @keyframes bloom {
+            0%, 100% {
+                fill: #ff6666;
+            }
+            50% {
+                fill: #4b0082; /* Purple */
+            }
+            75% {
+                fill: #000000; /* Black */
+            }
+        }
+        .stem {
+            stroke: #006400;
+            stroke-width: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="bouquet">
+        <!-- Flower 1 -->
+        <svg class="flower" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="512" cy="512" r="80" fill="#ffcc00"/>
+            <circle cx="412" cy="312" r="50" class="petal"/>
+            <circle cx="612" cy="312" r="50" class="petal"/>
+            <circle cx="312" cy="412" r="50" class="petal"/>
+            <circle cx="712" cy="412" r="50" class="petal"/>
+            <circle cx="312" cy="612" r="50" class="petal"/>
+            <circle cx="712" cy="612" r="50" class="petal"/>
+            <circle cx="412" cy="712" r="50" class="petal"/>
+            <circle cx="612" cy="712" r="50" class="petal"/>
+            <line x1="512" y1="592" x2="512" y2="924" class="stem"/>
+        </svg>
+        <!-- Flower 2 -->
+        <svg class="flower" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="512" cy="512" r="80" fill="#ffcc00"/>
+            <circle cx="412" cy="312" r="50" class="petal"/>
+            <circle cx="612" cy="312" r="50" class="petal"/>
+            <circle cx="312" cy="412" r="50" class="petal"/>
+            <circle cx="712" cy="412" r="50" class="petal"/>
+            <circle cx="312" cy="612" r="50" class="petal"/>
+            <circle cx="712" cy="612" r="50" class="petal"/>
+            <circle cx="412" cy="712" r="50" class="petal"/>
+            <circle cx="612" cy="712" r="50" class="petal"/>
+            <line x1="512" y1="592" x2="512" y2="924" class="stem"/>
+        </svg>
+        <!-- Flower 3 -->
+        <svg class="flower" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="512" cy="512" r="80" fill="#ffcc00"/>
+            <circle cx="412" cy="312" r="50" class="petal"/>
+            <circle cx="612" cy="312" r="50" class="petal"/>
+            <circle cx="312" cy="412" r="50" class="petal"/>
+            <circle cx="712" cy="412" r="50" class="petal"/>
+            <circle cx="312" cy="612" r="50" class="petal"/>
+            <circle cx="712" cy="612" r="50" class="petal"/>
+            <circle cx="412" cy="712" r="50" class="petal"/>
+            <circle cx="612" cy="712" r="50" class="petal"/>
+            <line x1="512" y1="592" x2="512" y2="924" class="stem"/>
+        </svg>
+        <!-- Flower 4 -->
+        <svg class="flower" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="512" cy="512" r="80" fill="#ffcc00"/>
+            <circle cx="412" cy="312" r="50" class="petal"/>
+            <circle cx="612" cy="312" r="50" class="petal"/>
+            <circle cx="312" cy="412" r="50" class="petal"/>
+            <circle cx="712" cy="412" r="50" class="petal"/>
+            <circle cx="312" cy="612" r="50" class="petal"/>
+            <circle cx="712" cy="612" r="50" class="petal"/>
+            <circle cx="412" cy="712" r="50" class="petal"/>
+            <circle cx="612" cy="712" r="50" class="petal"/>
+            <line x1="512" y1="592" x2="512" y2="924" class="stem"/>
+        </svg>
+        <!-- Flower 5 -->
+        <svg class="flower" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="512" cy="512" r="80" fill="#ffcc00"/>
+            <circle cx="412" cy="312" r="50" class="petal"/>
+            <circle cx="612" cy="312" r="50" class="petal"/>
+            <circle cx="312" cy="412" r="50" class="petal"/>
+            <circle cx="712" cy="412" r="50" class="petal"/>
+            <circle cx="312" cy="612" r="50" class="petal"/>
+            <circle cx="712" cy="612" r="50" class="petal"/>
+            <circle cx="412" cy="712" r="50" class="petal"/>
+            <circle cx="612" cy="712" r="50" class="petal"/>
+            <line x1="512" y1="592" x2="512" y2="924" class="stem"/>
+        </svg>
+    </div>
+</body>
+</html>
